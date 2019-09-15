@@ -1,3 +1,32 @@
+html,
+body {
+    background-color: #5a5560;
+}
+
+section {
+    background-color: #f7f9fb;
+    border-radius: 10px;
+    color: black;
+    margin: 1em;
+    padding: 1em;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #faed26;
+    border-radius: 10px;
+    border-style: none;
+    padding: 1em;
+}
+
 .nav-ul {
     list-style: none;
+    color: #faed26;
 }
