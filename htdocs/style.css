@@ -180,6 +180,25 @@ nav > ul {
     }
 }
 
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+    height: auto;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 footer {
     margin-top: 30px;
     background-color: #ddd;
