@@ -15,9 +15,20 @@ section {
     padding: 1em;
 }
 
-#Pricing {
-    flex-direction: grid;
+#form-div {
+    align-self: flex-end;
 }
+
+#What\'s_Included > iframe {
+    max-width: 560px;
+    width: 100%;
+  }
+  
+#Pricing {
+    flex-direction: row;
+    justify-content: center;
+}
+
 h2 {
     font-size: 1.8rem;
 }
@@ -37,7 +48,27 @@ img {
     padding: 1em;
 }
 
+a {
+    color: #faed26;
+    text-decoration: none;
+}
+
+.grid {
+    display: flex;
+    align-items: baseline;
+}
+
 .nav-ul {
     list-style: none;
-    color: #faed26;
 }
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 5px solid #5a5560;
+    border-radius: 10px;
+  }
