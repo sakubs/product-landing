@@ -20,11 +20,16 @@ li {
     list-style: none;
 }
 
+p {
+    line-height: 1.4em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 /* Global classes styling */
 
 .container {
-    max-width: 1000px;
-    width: 100%;
+    max-width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -34,7 +39,6 @@ header {
     min-height: 75px;
     padding: 0px 20px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #eee;
 }
@@ -145,6 +149,35 @@ nav > ul {
 @media (max-width: 650px) {
     #subscribe {
       margin-top: 120px;
+    }
+}
+
+#features {
+    margin-top: 30px;
+    word-wrap: break-word;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+  
+@media (max-width: 550px) {
+    #features .desc {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+}
+  
+@media (max-width: 650px) {
+    #features {
+        margin-top: 0;
     }
 }
 /*
