@@ -10,6 +10,18 @@ body {
     background-color: #eee;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Global classes styling */
+
 /*
 
 section {
