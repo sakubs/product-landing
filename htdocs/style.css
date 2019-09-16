@@ -161,25 +161,48 @@ nav > ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 125px;
     width: 80vw;
     padding: 5px;
 }
-  
+
 @media (max-width: 550px) {
     #features .desc {
         width: 100%;
         text-align: center;
         padding: 0;
-        height: 150px;
+    /*    height: 150px;*/
     }
 }
-  
+
 @media (max-width: 650px) {
     #features {
         margin-top: 0;
     }
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > ul > li {
+    padding: 0 10px;
+}
+
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
 /*
 
 section {
