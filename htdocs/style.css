@@ -137,6 +137,7 @@ nav > ul {
     height: 30px;
     margin: 15px 0;
     border: 0;
+    border-radius: 5px;
     background-color: #f1c40f;
 }
   
@@ -186,9 +187,9 @@ nav > ul {
 }
 
 #how-it-works > iframe {
-    max-width: 560px;
-    width: 100%;
-    height: auto;
+    max-width: 60%;
+    width: 570px;
+    height: 330px;
 }
 
 #pricing {
@@ -232,7 +233,9 @@ nav > ul {
 
 .product > button {
     border: 0;
+    border-radius: 5px;
     margin: 15px 0;
+    padding: 5px;
     background-color: #f1c40f;
     font-weight: 400;
 }
